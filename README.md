@@ -2,7 +2,7 @@
 
 This repository contains a number of minimal solvers for 3D point cloud matching with statistical deformations. The matching is done between two point clouds using 3 or 4 point pairs. These points are allowed to deform in the direction of the largest modes of variation (i.e. the modes of variation corresponding to the largest eigenvalues for the covariance matrices). Both the position of the points and the modes are sent in to the solvers.
 
-Solver x-a-b is a solver using x points, a modes from the first map and b modes from the second map. The solver file for solver x-a-b is called solver_3dreg_xab.m.
+Solver x-a-b is a solver using x points, a modes from the first map and b modes from the second map. The solver file for solver x-a-b is called ```solver_3dreg_xab.m```.
 
 The solvers have originally been created using an automatic generator[^1], and the corresponding problem files in the foder ```problems```. The function ```benchmark_solver.m``` comes from their code[^2]. Thereafter the solvers have been updated manually. The final solvers can be found in the folder ```solvers```. 
 
